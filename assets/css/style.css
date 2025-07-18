@@ -212,6 +212,13 @@ body.active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
+.btn-icon {
+  display: flex;                /* Enable flexbox layout */
+  flex-direction: row;          /* Stack children side by side */
+  align-items: center;          /* Align vertically centered */
+  gap: 10px;                    /* Optional: spacing between children */
+ }
+
 .btn-primary { border-color: var(--color-primary); }
 
 .btn-primary:is(:hover, :focus) {
