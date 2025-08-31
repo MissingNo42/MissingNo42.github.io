@@ -1190,6 +1190,12 @@ textarea.input-field {
     --trans-x: 0;
     opacity: 1;
   }
+/*
+.about-tooltip:hover .tooltip {
+  opacity: 1;
+    left: calc(100% + 10px);
+    top: 50%;
+}*/
 
   .scroll-down {
     display: block;
